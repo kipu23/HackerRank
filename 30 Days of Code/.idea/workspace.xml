@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="443ba7f9-8c3a-462b-844d-ebb474d06c36" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/Day 26 Nested Logic/src/Solution.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -14,11 +15,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day 25 Running Time and Complexity/src/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+            <state relative-caret-position="816">
+              <caret line="48" column="21" lean-forward="true" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Day 26 Nested Logic/src/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -59,6 +72,7 @@
         <option value="$PROJECT_DIR$/Day 23 BST Level Order Traversal/src/Solution.java" />
         <option value="$PROJECT_DIR$/Day 24 More Linked Lists/src/Solution.java" />
         <option value="$PROJECT_DIR$/Day 25 Running Time and Complexity/src/Solution.java" />
+        <option value="$PROJECT_DIR$/Day 26 Nested Logic/src/Solution.java" />
       </list>
     </option>
   </component>
@@ -74,7 +88,9 @@
     <option name="width" value="1400" />
     <option name="height" value="907" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -108,11 +124,11 @@
           <expand>
             <path>
               <item name="30 Days of Code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Day 25 Running Time and Complexity" type="462c0819:PsiDirectoryNode" />
+              <item name="Day 26 Nested Logic" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="30 Days of Code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Day 25 Running Time and Complexity" type="462c0819:PsiDirectoryNode" />
+              <item name="Day 26 Nested Logic" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -369,7 +385,7 @@
       <workItem from="1521543910029" duration="647000" />
       <workItem from="1521750910201" duration="4202000" />
       <workItem from="1521795914875" duration="723000" />
-      <workItem from="1521804904866" duration="2305000" />
+      <workItem from="1521804904866" duration="2515000" />
     </task>
     <task id="LOCAL-00001" summary="Day 25">
       <created>1521807973765</created>
@@ -382,7 +398,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34503000" />
+    <option name="totallyTimeSpent" value="34713000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
@@ -707,8 +723,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day 25 Running Time and Complexity/src/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+        <state relative-caret-position="816">
+          <caret line="48" column="21" lean-forward="true" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day 26 Nested Logic/src/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
