@@ -22,14 +22,33 @@ public class Solution {
         Calendar expectedDate = Calendar.getInstance();
         expectedDate.set(expectedYear,expectedMonth -1, expectedDay);
 
+        int fine = 0;
+
+        if (!returnDate.after(expectedDate)) {
+            fine = 0;
+        } else {
+            final long DAY_IN_MILLIS = 1000 * 60 * 60 * 24;
+
+            int daysBetween = (int) ((returnDate.getTime().getTime() - expectedDate.getTime().getTime())/DAY_IN_MILLIS) + 1;
+
+            int yearBetween = returnDate.get(Calendar.YEAR) - expectedDate.get(Calendar.YEAR);
+            int monthBetween = yearBetween * 12 + returnDate.get(Calendar.MONTH) - expectedDate.get(Calendar.MONTH);
+
+           // System.out.println("Daysbetween: "+ daysBetween);
+           // System.out.println("MonthBetween: "+ monthBetween);
 
 
+            if (returnDate.get(Calendar.MONTH) == expectedDate.get(Calendar.MONTH)){
+                fine = 15 * daysBetween;
+            } else if (returnDate.get(Calendar.YEAR) == expectedDate.get(Calendar.YEAR)){
+                fine = 500 * monthBetween;
+            } else {
+                fine = 10000;
+            }
 
-        System.out.println(returnDate.getTime());
-        System.out.println(expectedDate.getTime());
+        }
 
-
-
+        System.out.println(fine);
 
 
     }
